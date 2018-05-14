@@ -15,7 +15,7 @@ public class Pullbased {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        new Antarmuka().setVisible(true);
+
     }
     
 }
