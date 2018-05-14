@@ -47,7 +47,7 @@ public final class Dadu {
     }
     public String getWarnaSisi(int hasil){
         Color color = null;
-        int rand = randGenerator.nextInt(hasil)+1;
+        
         switch(hasil){
             case 1: color=new Color(233,23,43);break;
             case 2: color=new Color(33,23,56);break;
