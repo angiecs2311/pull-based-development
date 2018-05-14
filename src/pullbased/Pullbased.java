@@ -18,7 +18,7 @@ public class Pullbased {
                 
         Dadu dadu = new Dadu();
         int hasil=dadu.lempar();
-        System.out.println("Warna dadu: "+dadu.getWarnaSisi(hasil));
+        //System.out.println("Warna dadu: "+dadu.getWarnaSisi(hasil));
     }
     
 }
