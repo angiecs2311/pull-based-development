@@ -45,7 +45,7 @@ public final class Dadu {
     public String toString() {
         return "Jumlah sisi dadu: " + getJumSisi() + " hasil: " + getHasil();
     }
-    public Color getWarnaSisi(int hasil){
+    public String getWarnaSisi(int hasil){
         Color color = null;
         int rand = randGenerator.nextInt(hasil)+1;
         switch(hasil){
@@ -58,6 +58,6 @@ public final class Dadu {
             
         }
         
-        return color;
+        return color.toString();
 }
 }
