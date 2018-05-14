@@ -16,6 +16,10 @@ public class Pullbased {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Dadu dadu = new Dadu();
+        for(int i=0;i<20;i++){
+            dadu.lempar();
+        }
     }
     
 }
