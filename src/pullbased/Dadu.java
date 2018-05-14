@@ -28,10 +28,6 @@ public final class Dadu {
         this.jumSisi = numSides; 
     }
     
-    public int lempar() {
-        hasil = randGenerator.nextInt(jumSisi) + 1;
-        return hasil;
-    }
     
     public int getJumSisi() {
         return jumSisi;
