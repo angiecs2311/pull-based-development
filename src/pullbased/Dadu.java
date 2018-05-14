@@ -24,6 +24,7 @@ this.jumSisi = numSides;
 }
 public int lempar() {
 hasil = randGenerator.nextInt(jumSisi) + 1;
+    System.out.println("Hasil: "+hasil);
 return hasil;
 }
 public int getJumSisi() {
@@ -36,5 +37,10 @@ return hasil;
 public String toString() {
 return "Jumlah sisi dadu: " + getJumSisi() + " hasil: " + getHasil();
 }
+
+    int getWarnaSisi(int hasil) {
+        //To change body of generated methods, choose Tools | Templates.
+        return hasil;
+    }
 }
 

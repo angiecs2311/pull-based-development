@@ -16,6 +16,11 @@ public class Pullbased {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+   
+        Dadu dadu = new Dadu();
+        int hasil=dadu.lempar();
+        System.out.println("Warna Dadu: "+dadu.getWarnaSisi(hasil));
+        
     }
     
 }
